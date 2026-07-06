@@ -1,7 +1,13 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import AddToCartButton from "@/components/AddToCartButton";
-import { formatPrice, getAllProductSlugs, getProductBySlug } from "@/lib/products";
+import ProductCard from "@/components/ProductCard";
+import ProductGallery from "@/components/ProductGallery";
+import {
+  formatPrice,
+  getAllProductSlugs,
+  getProductBySlug,
+  getRelatedProducts,
+} from "@/lib/products";
 
 export function generateStaticParams() {
   return getAllProductSlugs().map((slug) => ({ slug }));
@@ -9,7 +15,11 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const product = getProductBySlug(params.slug);
-  return { title: product ? `${product.name} | Sterling & Oak` : "Sterling & Oak" };
+  if (!product) return { title: "Sterling & Oak" };
+  return {
+    title: `${product.name} | Sterling & Oak`,
+    description: product.description,
+  };
 }
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
@@ -19,43 +29,59 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
     notFound();
   }
 
+  const relatedProducts = getRelatedProducts(product.slug);
+
   return (
-    <section className="mx-auto grid max-w-6xl gap-10 px-6 py-16 sm:grid-cols-2">
-      <Image
-        src={product.image}
-        alt={product.name}
-        width={600}
-        height={600}
-        className="aspect-square w-full rounded-lg bg-black/5 object-cover"
-        priority
-      />
+    <>
+      <section className="mx-auto grid max-w-6xl gap-10 px-6 py-16 sm:grid-cols-2">
+        <ProductGallery images={product.images} name={product.name} />
 
-      <div className="flex flex-col gap-6">
-        <div>
-          <p className="text-sm uppercase tracking-wide opacity-60">{product.category}</p>
-          <h1 className="mt-1 text-3xl font-semibold tracking-tight">{product.name}</h1>
-          <p className="mt-2 text-xl">{formatPrice(product.price, product.currency)}</p>
+        <div className="flex flex-col gap-6">
+          <div>
+            <p className="text-sm uppercase tracking-wide opacity-60">
+              {product.category}
+            </p>
+            <h1 className="mt-1 text-3xl font-semibold tracking-tight">
+              {product.name}
+            </h1>
+            <p className="mt-2 text-xl">
+              {formatPrice(product.price, product.currency)}
+            </p>
+          </div>
+
+          <p className="opacity-70">{product.description}</p>
+
+          <dl className="grid grid-cols-2 gap-4 text-sm">
+            <div>
+              <dt className="opacity-60">Movement</dt>
+              <dd className="font-medium">{product.movement}</dd>
+            </div>
+            <div>
+              <dt className="opacity-60">Case size</dt>
+              <dd className="font-medium">{product.caseSize}</dd>
+            </div>
+            <div>
+              <dt className="opacity-60">Strap</dt>
+              <dd className="font-medium">{product.strap}</dd>
+            </div>
+          </dl>
+
+          <AddToCartButton product={product} />
         </div>
+      </section>
 
-        <p className="opacity-70">{product.description}</p>
-
-        <dl className="grid grid-cols-2 gap-4 text-sm">
-          <div>
-            <dt className="opacity-60">Movement</dt>
-            <dd className="font-medium">{product.movement}</dd>
+      {relatedProducts.length > 0 && (
+        <section className="mx-auto max-w-6xl px-6 pb-24">
+          <h2 className="mb-8 text-2xl font-semibold tracking-tight">
+            You may also like
+          </h2>
+          <div className="grid grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-4">
+            {relatedProducts.map((related) => (
+              <ProductCard key={related.id} product={related} />
+            ))}
           </div>
-          <div>
-            <dt className="opacity-60">Case size</dt>
-            <dd className="font-medium">{product.caseSize}</dd>
-          </div>
-          <div>
-            <dt className="opacity-60">Strap</dt>
-            <dd className="font-medium">{product.strap}</dd>
-          </div>
-        </dl>
-
-        <AddToCartButton product={product} />
-      </div>
-    </section>
+        </section>
+      )}
+    </>
   );
 }

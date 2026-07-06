@@ -19,6 +19,29 @@ export function getAllProductSlugs(): string[] {
   return products.map((product) => product.slug);
 }
 
+export function getAllCategories(): string[] {
+  return Array.from(new Set(products.map((product) => product.category))).sort();
+}
+
+// Same category first, then nearest in price, so the row is always full.
+export function getRelatedProducts(slug: string, limit = 4): Product[] {
+  const current = getProductBySlug(slug);
+  if (!current) return [];
+
+  const others = products.filter((product) => product.slug !== slug);
+  const sameCategory = others.filter(
+    (product) => product.category === current.category
+  );
+  const rest = others
+    .filter((product) => product.category !== current.category)
+    .sort(
+      (a, b) =>
+        Math.abs(a.price - current.price) - Math.abs(b.price - current.price)
+    );
+
+  return [...sameCategory, ...rest].slice(0, limit);
+}
+
 const CURRENCY_SYMBOLS: Record<string, string> = {
   ZAR: "R",
 };

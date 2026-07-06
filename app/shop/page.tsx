@@ -1,22 +1,18 @@
 import type { Metadata } from "next";
-import ProductCard from "@/components/ProductCard";
-import { getAllProducts } from "@/lib/products";
+import ShopGrid from "@/components/ShopGrid";
+import { getAllCategories, getAllProducts } from "@/lib/products";
 
 export const metadata: Metadata = {
   title: "Shop | Sterling & Oak",
+  description: "Browse the full Sterling & Oak collection.",
 };
 
 export default function ShopPage() {
-  const products = getAllProducts();
-
   return (
     <section className="mx-auto max-w-6xl px-6 py-16">
-      <h1 className="mb-10 text-3xl font-semibold tracking-tight">Shop</h1>
-      <div className="grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3">
-        {products.map((product) => (
-          <ProductCard key={product.id} product={product} />
-        ))}
-      </div>
+      <h1 className="mb-2 text-3xl font-semibold tracking-tight">Shop</h1>
+      <p className="mb-10 opacity-60">The full Sterling &amp; Oak collection.</p>
+      <ShopGrid products={getAllProducts()} categories={getAllCategories()} />
     </section>
   );
 }
