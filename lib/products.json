@@ -6,11 +6,11 @@
     "brand": "Sterling & Oak",
     "price": 4200,
     "currency": "ZAR",
-    "image": "/products/classic-chrono-front.svg",
+    "image": "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/classic-chrono-front.svg",
-      "/products/classic-chrono-side.svg",
-      "/products/classic-chrono-detail.svg"
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A timeless chronograph with a black dial and gold-tone accents. Precision quartz movement housed in a stainless steel case.",
     "category": "Chronograph",
@@ -27,11 +27,11 @@
     "brand": "Sterling & Oak",
     "price": 3400,
     "currency": "ZAR",
-    "image": "/products/minimalist-steel-front.svg",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/minimalist-steel-front.svg",
-      "/products/minimalist-steel-side.svg",
-      "/products/minimalist-steel-detail.svg"
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Clean lines and a brushed steel case make this the everyday watch for the understated dresser.",
     "category": "Minimalist",
@@ -48,11 +48,11 @@
     "brand": "Sterling & Oak",
     "price": 5600,
     "currency": "ZAR",
-    "image": "/products/diver-pro-front.svg",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/diver-pro-front.svg",
-      "/products/diver-pro-side.svg",
-      "/products/diver-pro-detail.svg"
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Water resistant to 300m with a unidirectional bezel, built for the water and the boardroom alike.",
     "category": "Diver",
@@ -69,11 +69,11 @@
     "brand": "Sterling & Oak",
     "price": 7400,
     "currency": "ZAR",
-    "image": "/products/heritage-gold-front.svg",
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/heritage-gold-front.svg",
-      "/products/heritage-gold-side.svg",
-      "/products/heritage-gold-detail.svg"
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A gold-plated dress watch inspired by mid-century design, finished with a domed sapphire crystal.",
     "category": "Dress",
@@ -90,11 +90,11 @@
     "brand": "Sterling & Oak",
     "price": 3100,
     "currency": "ZAR",
-    "image": "/products/field-watch-front.svg",
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/field-watch-front.svg",
-      "/products/field-watch-side.svg",
-      "/products/field-watch-detail.svg"
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Rugged and legible, built for the outdoors with a scratch-resistant crystal and canvas strap.",
     "category": "Field",
@@ -111,11 +111,11 @@
     "brand": "Sterling & Oak",
     "price": 3900,
     "currency": "ZAR",
-    "image": "/products/dress-noir-front.svg",
+    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/dress-noir-front.svg",
-      "/products/dress-noir-side.svg",
-      "/products/dress-noir-detail.svg"
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "An all-black dress watch with a matte finish case and a slim profile that sits flush under a cuff.",
     "category": "Dress",
@@ -132,11 +132,11 @@
     "brand": "Sterling & Oak",
     "price": 8900,
     "currency": "ZAR",
-    "image": "/products/gmt-voyager-front.svg",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/gmt-voyager-front.svg",
-      "/products/gmt-voyager-side.svg",
-      "/products/gmt-voyager-detail.svg"
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Track two time zones at a glance with an independent GMT hand and a 24-hour chapter ring.",
     "category": "GMT",
@@ -153,11 +153,11 @@
     "brand": "Sterling & Oak",
     "price": 11200,
     "currency": "ZAR",
-    "image": "/products/skeleton-automatic-front.svg",
+    "image": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/skeleton-automatic-front.svg",
-      "/products/skeleton-automatic-side.svg",
-      "/products/skeleton-automatic-detail.svg"
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "An open-worked dial reveals the balance wheel and gear train of the in-house automatic movement.",
     "category": "Skeleton",
@@ -174,11 +174,11 @@
     "brand": "Sterling & Oak",
     "price": 5200,
     "currency": "ZAR",
-    "image": "/products/pilot-heritage-front.svg",
+    "image": "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/pilot-heritage-front.svg",
-      "/products/pilot-heritage-side.svg",
-      "/products/pilot-heritage-detail.svg"
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Oversized crown, luminous numerals, and cockpit-grade legibility inspired by 1940s flight instruments.",
     "category": "Pilot",
@@ -195,11 +195,11 @@
     "brand": "Sterling & Oak",
     "price": 9800,
     "currency": "ZAR",
-    "image": "/products/moonphase-classic-front.svg",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/moonphase-classic-front.svg",
-      "/products/moonphase-classic-side.svg",
-      "/products/moonphase-classic-detail.svg"
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A midnight-blue dial carries a moonphase complication at six o'clock, framed in polished gold.",
     "category": "Dress",
@@ -216,11 +216,11 @@
     "brand": "Sterling & Oak",
     "price": 6700,
     "currency": "ZAR",
-    "image": "/products/racing-chrono-front.svg",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/racing-chrono-front.svg",
-      "/products/racing-chrono-side.svg",
-      "/products/racing-chrono-detail.svg"
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Panda-dial chronograph with a tachymeter scale, built for the paddock and the open road.",
     "category": "Chronograph",
@@ -237,11 +237,11 @@
     "brand": "Sterling & Oak",
     "price": 8200,
     "currency": "ZAR",
-    "image": "/products/ocean-diver-600-front.svg",
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/ocean-diver-600-front.svg",
-      "/products/ocean-diver-600-side.svg",
-      "/products/ocean-diver-600-detail.svg"
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Helium escape valve, 600m water resistance, and a ceramic bezel for serious saturation diving.",
     "category": "Diver",
@@ -258,13 +258,13 @@
     "brand": "Sterling & Oak",
     "price": 4600,
     "currency": "ZAR",
-    "image": "/products/slim-rose-front.svg",
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/slim-rose-front.svg",
-      "/products/slim-rose-side.svg",
-      "/products/slim-rose-detail.svg"
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop"
     ],
-    "description": "A 6.8mm rose-gold case with a silk-finished dial — the dress watch that disappears under a cuff.",
+    "description": "A 6.8mm rose-gold case with a silk-finished dial \u2014 the dress watch that disappears under a cuff.",
     "category": "Dress",
     "movement": "Quartz",
     "caseSize": "36mm",
@@ -279,13 +279,13 @@
     "brand": "Sterling & Oak",
     "price": 3300,
     "currency": "ZAR",
-    "image": "/products/urban-minimal-front.svg",
+    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/urban-minimal-front.svg",
-      "/products/urban-minimal-side.svg",
-      "/products/urban-minimal-detail.svg"
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop"
     ],
-    "description": "Matte black case on a woven mesh strap. No numerals, no clutter — just time.",
+    "description": "Matte black case on a woven mesh strap. No numerals, no clutter \u2014 just time.",
     "category": "Minimalist",
     "movement": "Quartz",
     "caseSize": "39mm",
@@ -300,11 +300,11 @@
     "brand": "Sterling & Oak",
     "price": 3800,
     "currency": "ZAR",
-    "image": "/products/expedition-field-front.svg",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/expedition-field-front.svg",
-      "/products/expedition-field-side.svg",
-      "/products/expedition-field-detail.svg"
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A hacking-seconds field automatic with a full lume dial for reading time by starlight.",
     "category": "Field",
@@ -321,11 +321,11 @@
     "brand": "Sterling & Oak",
     "price": 7800,
     "currency": "ZAR",
-    "image": "/products/regatta-chrono-front.svg",
+    "image": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/regatta-chrono-front.svg",
-      "/products/regatta-chrono-side.svg",
-      "/products/regatta-chrono-detail.svg"
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A sailing chronograph with a regatta countdown timer and a salt-proof composite case.",
     "category": "Chronograph",
@@ -342,11 +342,11 @@
     "brand": "Sterling & Oak",
     "price": 9400,
     "currency": "ZAR",
-    "image": "/products/midnight-gmt-front.svg",
+    "image": "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/midnight-gmt-front.svg",
-      "/products/midnight-gmt-side.svg",
-      "/products/midnight-gmt-detail.svg"
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A blacked-out GMT with gilt accents, made for red-eye flights and late arrivals.",
     "category": "GMT",
@@ -363,13 +363,13 @@
     "brand": "Sterling & Oak",
     "price": 5100,
     "currency": "ZAR",
-    "image": "/products/tuxedo-dress-front.svg",
+    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/tuxedo-dress-front.svg",
-      "/products/tuxedo-dress-side.svg",
-      "/products/tuxedo-dress-detail.svg"
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop"
     ],
-    "description": "A black-and-white sector dial in a polished case — formalwear for the wrist.",
+    "description": "A black-and-white sector dial in a polished case \u2014 formalwear for the wrist.",
     "category": "Dress",
     "movement": "Quartz",
     "caseSize": "38mm",
@@ -384,11 +384,11 @@
     "brand": "Sterling & Oak",
     "price": 6300,
     "currency": "ZAR",
-    "image": "/products/coastal-diver-front.svg",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/coastal-diver-front.svg",
-      "/products/coastal-diver-side.svg",
-      "/products/coastal-diver-detail.svg"
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A slimmer take on the dive watch with 200m water resistance and an easy-wearing 42mm case.",
     "category": "Diver",
@@ -405,11 +405,11 @@
     "brand": "Sterling & Oak",
     "price": 7100,
     "currency": "ZAR",
-    "image": "/products/aviator-chrono-front.svg",
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/aviator-chrono-front.svg",
-      "/products/aviator-chrono-side.svg",
-      "/products/aviator-chrono-detail.svg"
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "Flyback chronograph with a slide-rule bezel, descended from mid-century navigation watches.",
     "category": "Pilot",
@@ -426,11 +426,11 @@
     "brand": "Sterling & Oak",
     "price": 12000,
     "currency": "ZAR",
-    "image": "/products/skeleton-gold-front.svg",
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/skeleton-gold-front.svg",
-      "/products/skeleton-gold-side.svg",
-      "/products/skeleton-gold-detail.svg"
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "The flagship: a gold-cased open-heart automatic with hand-anglage bridges and a 60-hour reserve.",
     "category": "Skeleton",
@@ -447,11 +447,11 @@
     "brand": "Sterling & Oak",
     "price": 10500,
     "currency": "ZAR",
-    "image": "/products/meridian-dual-time-front.svg",
+    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/meridian-dual-time-front.svg",
-      "/products/meridian-dual-time-side.svg",
-      "/products/meridian-dual-time-detail.svg"
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139143976-30918502365b?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A travel watch with a jumping local-hour hand you can set without stopping the movement.",
     "category": "GMT",
@@ -468,11 +468,11 @@
     "brand": "Sterling & Oak",
     "price": 6100,
     "currency": "ZAR",
-    "image": "/products/heritage-silver-front.svg",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/heritage-silver-front.svg",
-      "/products/heritage-silver-side.svg",
-      "/products/heritage-silver-detail.svg"
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94fe90?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "The Heritage case in rhodium-plated silver with a grained dial and heat-blued hands.",
     "category": "Dress",
@@ -489,11 +489,11 @@
     "brand": "Sterling & Oak",
     "price": 4400,
     "currency": "ZAR",
-    "image": "/products/trail-field-auto-front.svg",
+    "image": "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=700&auto=format&fit=crop",
     "images": [
-      "/products/trail-field-auto-front.svg",
-      "/products/trail-field-auto-side.svg",
-      "/products/trail-field-auto-detail.svg"
+      "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=900&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop"
     ],
     "description": "A field automatic with a 100m rating, drilled lugs, and straps that swap without tools.",
     "category": "Field",

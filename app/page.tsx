@@ -5,9 +5,9 @@ import { getFeaturedProducts } from "@/lib/products";
 import { WHATSAPP_LINK } from "@/lib/site-config";
 
 const COLLECTIONS = [
-  { title: "Divers", blurb: "Explore →", image: "/products/ocean-diver-600-front.svg" },
-  { title: "Chronographs", blurb: "Explore →", image: "/products/racing-chrono-front.svg" },
-  { title: "Dress Watches", blurb: "Explore →", image: "/products/tuxedo-dress-front.svg" },
+  { title: "Divers", blurb: "Explore →", image: "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop" },
+  { title: "Chronographs", blurb: "Explore →", image: "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop" },
+  { title: "Dress Watches", blurb: "Explore →", image: "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop" },
 ];
 
 const TRUST = [
