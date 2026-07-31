@@ -1,7 +1,6 @@
 import Link from "next/link";
+import { SITE, WHATSAPP_LINK } from "@/lib/site-config";
 
-// [PLACEHOLDER — REPLACE] with the store's real WhatsApp number
-const WHATSAPP_LINK = "https://wa.me/27000000000";
 
 export default function Footer() {
   return (
@@ -57,8 +56,8 @@ export default function Footer() {
           <p className="text-xs uppercase tracking-[0.08em] text-gold">Contact</p>
           <ul className="mt-4 space-y-2">
             <li>
-              <a href="mailto:hello@sterlingandoak.com" className="text-muted hover:text-gold">
-                hello@sterlingandoak.com
+              <a href={`mailto:${SITE.email}`} className="text-muted hover:text-gold">
+                {SITE.email}
               </a>
             </li>
             <li>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCart } from "@/lib/cart-context";
+import { WHATSAPP_LINK } from "@/lib/site-config";
 
 const NAV_LINKS = [
   { href: "/shop", label: "Shop" },
@@ -10,8 +11,6 @@ const NAV_LINKS = [
   { href: "/contact", label: "Contact" },
 ];
 
-// [PLACEHOLDER — REPLACE] with the store's real WhatsApp number
-const WHATSAPP_LINK = "https://wa.me/27000000000";
 
 export default function Header() {
   const { totalItems, openDrawer } = useCart();
