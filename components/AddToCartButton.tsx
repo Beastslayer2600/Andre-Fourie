@@ -10,7 +10,7 @@ export default function AddToCartButton({ product }: { product: Product }) {
 
   return (
     <div className="flex items-center gap-4">
-      <div className="flex items-center gap-3 rounded-full border border-foreground/30 px-4 py-2">
+      <div className="flex items-center gap-3 rounded-full border border-gold/40 px-4 py-2">
         <button
           type="button"
           onClick={() => setQuantity((q) => Math.max(1, q - 1))}
@@ -34,9 +34,9 @@ export default function AddToCartButton({ product }: { product: Product }) {
         type="button"
         onClick={() => addItem(product, quantity)}
         disabled={!product.inStock}
-        className="flex-1 rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
+        className="flex-1 rounded-sm bg-gold px-6 py-3 text-sm font-medium uppercase tracking-wide text-background hover:bg-white disabled:cursor-not-allowed disabled:bg-muted/30 disabled:text-muted"
       >
-        {product.inStock ? "Add to cart" : "Out of stock"}
+        {product.inStock ? "Add to Cart" : "Out of Stock"}
       </button>
     </div>
   );

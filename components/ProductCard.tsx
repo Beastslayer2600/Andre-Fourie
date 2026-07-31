@@ -11,7 +11,10 @@ export default function ProductCard({ product }: { product: Product }) {
 
   return (
     <div className="group flex flex-col">
-      <Link href={`/shop/${product.slug}`} className="block overflow-hidden rounded-lg bg-black/5">
+      <Link
+        href={`/shop/${product.slug}`}
+        className="block overflow-hidden rounded-sm border border-gold/10 bg-background-alt"
+      >
         <Image
           src={product.image}
           alt={product.name}
@@ -23,21 +26,21 @@ export default function ProductCard({ product }: { product: Product }) {
 
       <div className="mt-3 flex items-start justify-between gap-4">
         <div>
-          <Link href={`/shop/${product.slug}`} className="font-medium hover:opacity-70">
+          <Link href={`/shop/${product.slug}`} className="font-medium hover:text-gold">
             {product.name}
           </Link>
-          <p className="text-sm opacity-60">{product.category}</p>
+          <p className="text-sm text-muted">{product.category}</p>
         </div>
-        <p className="font-medium">{formatPrice(product.price, product.currency)}</p>
+        <p className="font-medium text-gold">{formatPrice(product.price, product.currency)}</p>
       </div>
 
       <button
         type="button"
         onClick={() => addItem(product)}
         disabled={!product.inStock}
-        className="mt-3 rounded-full border border-foreground px-4 py-2 text-sm font-medium transition-colors hover:bg-foreground hover:text-background disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:bg-transparent disabled:hover:text-foreground"
+        className="mt-3 rounded-sm border border-gold px-4 py-2 text-sm font-medium uppercase tracking-wide text-gold transition-colors hover:bg-gold hover:text-background disabled:cursor-not-allowed disabled:border-muted/30 disabled:text-muted/50 disabled:hover:bg-transparent"
       >
-        {product.inStock ? "Add to cart" : "Out of stock"}
+        {product.inStock ? "Add to Cart" : "Out of Stock"}
       </button>
     </div>
   );

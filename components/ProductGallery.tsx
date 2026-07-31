@@ -14,7 +14,7 @@ export default function ProductGallery({
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="overflow-hidden rounded-lg bg-black/5">
+      <div className="overflow-hidden rounded-sm border border-gold/10 bg-background-alt">
         <Image
           src={images[selected]}
           alt={`${name} — view ${selected + 1} of ${images.length}`}
@@ -34,10 +34,10 @@ export default function ProductGallery({
               onClick={() => setSelected(index)}
               aria-label={`Show view ${index + 1} of ${name}`}
               aria-current={selected === index}
-              className={`overflow-hidden rounded-md bg-black/5 transition-opacity ${
+              className={`overflow-hidden rounded-sm border bg-background-alt transition-opacity ${
                 selected === index
-                  ? "ring-2 ring-foreground"
-                  : "opacity-70 hover:opacity-100"
+                  ? "border-gold opacity-100"
+                  : "border-gold/10 opacity-60 hover:opacity-100"
               }`}
             >
               <Image

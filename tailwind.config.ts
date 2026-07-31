@@ -10,7 +10,14 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
+        "background-alt": "var(--background-alt)",
         foreground: "var(--foreground)",
+        muted: "var(--muted)",
+        gold: "var(--gold)",
+        "gold-dim": "var(--gold-dim)",
+      },
+      fontFamily: {
+        serif: ["Georgia", "Cambria", "Times New Roman", "serif"],
       },
     },
   },

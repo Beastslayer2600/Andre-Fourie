@@ -59,8 +59,8 @@ export default function ShopGrid({
               aria-pressed={category === option}
               className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
                 category === option
-                  ? "border-foreground bg-foreground text-background"
-                  : "border-foreground/25 hover:border-foreground"
+                  ? "border-gold bg-gold text-background"
+                  : "border-gold/25 text-muted hover:border-gold hover:text-gold"
               }`}
             >
               {option}
@@ -69,11 +69,11 @@ export default function ShopGrid({
         </div>
 
         <label className="flex items-center gap-2 text-sm">
-          <span className="opacity-60">Sort</span>
+          <span className="text-muted">Sort</span>
           <select
             value={sort}
             onChange={(event) => setSort(event.target.value as SortOption)}
-            className="rounded-full border border-foreground/25 bg-background px-3 py-1.5"
+            className="rounded-sm border border-gold/25 bg-background-alt px-3 py-1.5 text-foreground"
           >
             {(Object.keys(SORT_LABELS) as SortOption[]).map((option) => (
               <option key={option} value={option}>
@@ -84,7 +84,7 @@ export default function ShopGrid({
         </label>
       </div>
 
-      <p className="mb-6 text-sm opacity-60">
+      <p className="mb-6 text-sm text-muted">
         {visible.length} {visible.length === 1 ? "watch" : "watches"}
       </p>
 
