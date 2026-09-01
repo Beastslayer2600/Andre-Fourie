@@ -7,7 +7,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The iconic dive watch. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -24,7 +27,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Clean, pure dive watch. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -41,7 +47,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Blue and black ceramic bezel. Availability and pricing on request.",
     "category": "GMT",
     "movement": "Automatic",
@@ -57,8 +66,11 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1614164185128-ce4ff69862c7?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1614164185128-ce4ff69862c7?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Red and blue ceramic bezel. Availability and pricing on request.",
     "category": "GMT",
     "movement": "Automatic",
@@ -74,8 +86,11 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The legendary chronograph. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Automatic",
@@ -91,8 +106,11 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "White dial with black counters. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Automatic",
@@ -109,7 +127,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The classic Rolex dress sports watch. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Automatic",
@@ -125,8 +146,11 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Annual calendar with dual time. Availability and pricing on request.",
     "category": "GMT",
     "movement": "Automatic",
@@ -142,8 +166,11 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Tool watch purity. Availability and pricing on request.",
     "category": "Field",
     "movement": "Automatic",
@@ -160,7 +187,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The most sought-after sports watch. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -176,8 +206,11 @@
     "brand": "Patek Philippe",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1614164185128-ce4ff69862c7?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1614164185128-ce4ff69862c7?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Sporty elegance with rubber strap. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -194,7 +227,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The original luxury sports watch. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -211,7 +247,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Bold and distinctive. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -227,8 +266,11 @@
     "brand": "Omega",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The modern classic dive watch. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -245,7 +287,10 @@
     "price": 0,
     "currency": "ZAR",
     "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop"],
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The first watch on the moon. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Manual",
@@ -261,8 +306,11 @@
     "brand": "Cartier",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Timeless square elegance. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Automatic",
@@ -278,8 +326,11 @@
     "brand": "Cartier",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "The iconic rectangular dress watch. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Quartz / Automatic",
@@ -295,8 +346,11 @@
     "brand": "Panerai",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1614164185128-ce4ff69862c7?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1614164185128-ce4ff69862c7?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Distinctive crown protection. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -312,8 +366,11 @@
     "brand": "TAG Heuer",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Racing-inspired chronograph. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Automatic",
@@ -329,8 +386,11 @@
     "brand": "Franck Muller",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
-    "images": ["https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop"],
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
+    ],
     "description": "Bold and distinctive design. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Automatic",
