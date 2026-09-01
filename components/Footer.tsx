@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { SITE, WHATSAPP_LINK } from "@/lib/site-config";
 
-
 export default function Footer() {
   return (
     <footer className="border-t border-gold/15 bg-background">
@@ -11,7 +10,7 @@ export default function Footer() {
             STERLING <span className="text-gold">&amp;</span> OAK
           </p>
           <p className="mt-3 max-w-[220px] text-muted">
-            Timeless watches, built to last. Placeholder copy — final brand story pending.
+            Authentic luxury timepieces. Rolex, Patek Philippe, Audemars Piguet and more — carefully sourced for you.
           </p>
         </div>
 
@@ -67,7 +66,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-muted hover:text-gold"
               >
-                WhatsApp us
+                WhatsApp: 071 304 9269
               </a>
             </li>
             <li>
@@ -82,7 +81,7 @@ export default function Footer() {
       <div className="border-t border-gold/10">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-6 py-6 text-xs text-muted">
           <span>&copy; {new Date().getFullYear()} Sterling &amp; Oak. All rights reserved.</span>
-          <span>Design by Fortitudo Studio</span>
+          <span>Authenticity guaranteed</span>
         </div>
       </div>
     </footer>

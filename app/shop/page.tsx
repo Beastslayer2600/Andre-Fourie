@@ -5,7 +5,7 @@ import { getAllCategories, getAllProducts } from "@/lib/products";
 export const metadata: Metadata = {
   title: "Shop | Sterling & Oak",
   description:
-    "Browse the full Sterling & Oak collection — divers, chronographs, GMTs, dress and field watches.",
+    "Browse authentic Rolex, Patek Philippe, Audemars Piguet, Omega, Cartier and more — availability and pricing on request.",
 };
 
 export default function ShopPage() {
@@ -20,8 +20,8 @@ export default function ShopPage() {
         Shop
       </h1>
       <p className="mb-10 max-w-xl text-muted">
-        {products.length} pieces across eight collections — every one designed
-        and built in-house.
+        {products.length} carefully sourced pieces from Rolex, Patek Philippe,
+        Audemars Piguet, Omega and more. Availability and pricing on request.
       </p>
       <ShopGrid products={products} categories={getAllCategories()} />
     </section>
