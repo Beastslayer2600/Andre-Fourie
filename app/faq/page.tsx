@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { WHATSAPP_LINK } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "FAQ | Sterling & Oak",
@@ -7,24 +7,32 @@ export const metadata: Metadata = {
 
 const FAQS = [
   {
-    q: "What payment methods do you accept?",
-    a: "Placeholder — to be confirmed once a payment processor is connected (e.g. card, EFT).",
+    q: "Are the watches authentic?",
+    a: "Yes. Every watch we offer is carefully verified for authenticity. We only deal in genuine pieces.",
   },
   {
-    q: "Do you ship internationally?",
-    a: "Placeholder — shipping regions (South Africa only vs. international) need to be confirmed with the client before launch.",
+    q: "Do you have the watch in stock right now?",
+    a: "Availability changes frequently. Message us on WhatsApp with the model you are looking for and we will confirm current stock and condition immediately.",
   },
   {
-    q: "What's your return policy?",
-    a: "Placeholder — final return window and conditions to be confirmed with the client.",
+    q: "What is the condition of the watches?",
+    a: "We provide honest condition reports (including box and papers status) for every piece. Ask us for details on any specific watch.",
   },
   {
-    q: "Is there a warranty on purchases?",
-    a: "Placeholder — warranty terms to be confirmed with the client.",
+    q: "How does payment work?",
+    a: "We accept secure bank transfer (EFT) and other verified payment methods. Full details are given once a piece is reserved.",
   },
   {
-    q: "Can I ask about a specific watch before buying?",
-    a: "Yes — message us on WhatsApp any time and we'll answer any questions about a piece.",
+    q: "Do you ship?",
+    a: "Yes. We offer secure, insured and discreet delivery across South Africa and selected international destinations.",
+  },
+  {
+    q: "Is there a warranty or return policy?",
+    a: "This is discussed case by case depending on the piece. We stand behind authenticity and will be transparent about the terms before you commit.",
+  },
+  {
+    q: "Can I request a specific reference or configuration?",
+    a: "Absolutely. Tell us the exact reference, dial, bracelet or year preference and we will source it if possible.",
   },
 ];
 
@@ -51,12 +59,15 @@ export default function FAQPage() {
 
       <div className="mt-14 text-center">
         <p className="mb-4 text-muted">Didn&apos;t find your answer?</p>
-        <Link
-          href="/contact"
+        <a
+          href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block rounded-sm bg-gold px-8 py-3 text-sm font-medium uppercase tracking-wide text-background hover:bg-white"
         >
-          Contact Us
-        </Link>
+          Message on WhatsApp
+        </a>
+        <p className="mt-3 text-sm text-muted">071 304 9269</p>
       </div>
     </section>
   );

@@ -17,7 +17,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const product = getProductBySlug(params.slug);
   if (!product) return { title: "Sterling & Oak" };
   return {
-    title: `${product.name} | Sterling & Oak`,
+    title: `${product.brand} ${product.name} | Sterling & Oak`,
     description: product.description,
   };
 }
@@ -30,6 +30,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   }
 
   const relatedProducts = getRelatedProducts(product.slug);
+  const isEnquiry = product.price === 0;
 
   return (
     <>
@@ -39,13 +40,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <div className="flex flex-col gap-6">
           <div>
             <p className="text-sm uppercase tracking-wide text-gold-dim">
-              {product.category}
+              {product.brand} · {product.category}
             </p>
             <h1 className="mt-1 font-serif text-3xl font-semibold tracking-tight">
               {product.name}
             </h1>
             <p className="mt-2 text-xl text-gold">
-              {formatPrice(product.price, product.currency)}
+              {isEnquiry ? "Price on request" : formatPrice(product.price, product.currency)}
             </p>
           </div>
 
@@ -69,7 +70,9 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <AddToCartButton product={product} />
 
           <p className="flex items-center gap-2 text-xs text-muted">
-            ✓ Backed by our quality guarantee &nbsp;·&nbsp; ✓ Secure payment &nbsp;·&nbsp; ✓ Return policy applies
+            {isEnquiry
+              ? "✓ Authenticity guaranteed · ✓ Honest condition reports · ✓ Secure delivery"
+              : "✓ Backed by our quality guarantee · ✓ Secure payment · ✓ Return policy applies"}
           </p>
         </div>
       </section>

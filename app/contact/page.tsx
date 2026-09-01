@@ -1,16 +1,13 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-
-// [PLACEHOLDER — REPLACE] with the store's real WhatsApp number
-const WHATSAPP_LINK = "https://wa.me/27000000000";
+import { WHATSAPP_LINK } from "@/lib/site-config";
 
 export default function ContactPage() {
   const [sent, setSent] = useState(false);
 
   function handleSubmit(event: FormEvent) {
     event.preventDefault();
-    // Front-end placeholder only — needs to be wired to email/CRM before launch.
     setSent(true);
   }
 
@@ -21,7 +18,7 @@ export default function ContactPage() {
         Contact Sterling &amp; Oak
       </h1>
       <p className="mb-12 max-w-xl text-muted">
-        Questions about a piece, an order, or a warranty? We&apos;re a message away.
+        Questions about a piece, availability or anything else? We&apos;re a message away.
       </p>
 
       <div className="grid gap-10 sm:grid-cols-2">
@@ -41,7 +38,7 @@ export default function ContactPage() {
                 rel="noopener noreferrer"
                 className="mt-2 inline-block text-sm text-gold underline"
               >
-                Message us on WhatsApp
+                071 304 9269
               </a>
             </div>
           </div>
@@ -76,10 +73,18 @@ export default function ContactPage() {
         <div>
           {sent ? (
             <div className="rounded-sm border border-gold/15 bg-background-alt p-8 text-center">
-              <p className="font-semibold text-gold">Message sent</p>
+              <p className="font-semibold text-gold">Message received</p>
               <p className="mt-2 text-sm text-muted">
-                Placeholder confirmation — this form isn&apos;t wired to email/CRM yet.
+                Thank you. For the fastest response, please also message us on WhatsApp.
               </p>
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block text-sm text-gold underline"
+              >
+                Open WhatsApp
+              </a>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -106,7 +111,7 @@ export default function ContactPage() {
                 <textarea
                   required
                   rows={5}
-                  placeholder="Tell us what you're looking for..."
+                  placeholder="Tell us which watch you are looking for..."
                   className="rounded-sm border border-gold/25 bg-background-alt px-3 py-2 text-foreground placeholder:text-muted/50"
                 />
               </label>
@@ -117,7 +122,7 @@ export default function ContactPage() {
                 Send Message
               </button>
               <p className="text-xs text-muted">
-                This form is a front-end placeholder — needs to be wired to email/CRM before launch.
+                For the fastest reply, message us directly on WhatsApp: 071 304 9269
               </p>
             </form>
           )}

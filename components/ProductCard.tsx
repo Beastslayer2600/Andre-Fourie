@@ -4,10 +4,16 @@ import Image from "next/image";
 import Link from "next/link";
 import { formatPrice } from "@/lib/products";
 import { useCart } from "@/lib/cart-context";
+import { WHATSAPP_LINK } from "@/lib/site-config";
 import type { Product } from "@/lib/types";
 
 export default function ProductCard({ product }: { product: Product }) {
   const { addItem } = useCart();
+  const isEnquiry = product.price === 0;
+
+  const enquireLink = `${WHATSAPP_LINK}?text=${encodeURIComponent(
+    `Hi, I'm interested in the ${product.brand} ${product.name}. Is it available?`
+  )}`;
 
   return (
     <div className="group flex flex-col overflow-hidden rounded-sm border border-gold/10 bg-background-alt transition-all duration-200 hover:-translate-y-1.5 hover:border-gold/40">
@@ -20,13 +26,13 @@ export default function ProductCard({ product }: { product: Product }) {
           className="aspect-square w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
         <span className="absolute left-3.5 top-3.5 rounded-sm border border-gold/30 bg-background/85 px-2.5 py-1.5 text-[10px] uppercase tracking-[0.08em] text-gold">
-          {product.inStock ? "In Stock" : "Sold Out"}
+          {product.inStock ? "Available" : "Sold Out"}
         </span>
       </Link>
 
       <div className="flex flex-1 flex-col p-5">
         <p className="mb-1.5 text-[11px] uppercase tracking-[0.08em] text-gold-dim">
-          {product.category} &middot; {product.strap}
+          {product.brand} &middot; {product.category}
         </p>
         <Link
           href={`/shop/${product.slug}`}
@@ -37,19 +43,30 @@ export default function ProductCard({ product }: { product: Product }) {
 
         <div className="mt-auto flex items-center justify-between pt-2">
           <span className="font-semibold text-gold">
-            {formatPrice(product.price, product.currency)}
+            {isEnquiry ? "Price on request" : formatPrice(product.price, product.currency)}
           </span>
           <span className="text-xs text-muted">{product.caseSize}</span>
         </div>
 
-        <button
-          type="button"
-          onClick={() => addItem(product)}
-          disabled={!product.inStock}
-          className="mt-4 rounded-sm border border-gold px-4 py-2 text-xs font-medium uppercase tracking-wide text-gold transition-colors hover:bg-gold hover:text-background disabled:cursor-not-allowed disabled:border-muted/30 disabled:text-muted/50 disabled:hover:bg-transparent"
-        >
-          {product.inStock ? "Add to Cart" : "Out of Stock"}
-        </button>
+        {isEnquiry ? (
+          <a
+            href={enquireLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 rounded-sm border border-gold px-4 py-2 text-center text-xs font-medium uppercase tracking-wide text-gold transition-colors hover:bg-gold hover:text-background"
+          >
+            Enquire on WhatsApp
+          </a>
+        ) : (
+          <button
+            type="button"
+            onClick={() => addItem(product)}
+            disabled={!product.inStock}
+            className="mt-4 rounded-sm border border-gold px-4 py-2 text-xs font-medium uppercase tracking-wide text-gold transition-colors hover:bg-gold hover:text-background disabled:cursor-not-allowed disabled:border-muted/30 disabled:text-muted/50 disabled:hover:bg-transparent"
+          >
+            {product.inStock ? "Add to Cart" : "Out of Stock"}
+          </button>
+        )}
       </div>
     </div>
   );

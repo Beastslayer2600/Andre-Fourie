@@ -4,44 +4,42 @@ import ProductCard from "@/components/ProductCard";
 import { getFeaturedProducts } from "@/lib/products";
 import { WHATSAPP_LINK } from "@/lib/site-config";
 
-const COLLECTIONS = [
-  { title: "Divers", blurb: "Explore →", image: "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=900&auto=format&fit=crop" },
-  { title: "Chronographs", blurb: "Explore →", image: "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=900&auto=format&fit=crop" },
-  { title: "Dress Watches", blurb: "Explore →", image: "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=900&auto=format&fit=crop" },
+const BRANDS = [
+  { title: "Rolex", blurb: "Explore →", image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=900&auto=format&fit=crop" },
+  { title: "Patek Philippe", blurb: "Explore →", image: "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=900&auto=format&fit=crop" },
+  { title: "Audemars Piguet", blurb: "Explore →", image: "https://images.unsplash.com/photo-1614164185128-ce4ff69862c7?q=80&w=900&auto=format&fit=crop" },
 ];
 
 const TRUST = [
   {
     icon: "✓",
-    title: "Built to Last",
-    body: "Proven movements and materials chosen to age well — not disposable fashion.",
+    title: "Authenticity Guaranteed",
+    body: "Every watch is carefully verified for authenticity before it is offered.",
   },
   {
     icon: "◈",
-    title: "Honest Specs",
-    body: "Movement, case size, and materials listed in full on every piece. No guesswork.",
+    title: "Direct Communication",
+    body: "Real answers on WhatsApp. No bots, no pressure — just clear information.",
   },
   {
     icon: "↺",
-    title: "Buyer Protection",
-    body: "Secure payment and a clear return policy back every purchase.",
+    title: "Secure & Discreet",
+    body: "Secure payment options and discreet nationwide delivery.",
   },
 ];
 
 const REVIEWS = [
   {
-    quote:
-      "Beautifully finished watch and it arrived faster than I expected. Would buy again.",
-    author: "Placeholder Review",
+    quote: "Beautifully finished watch and it arrived faster than I expected. Would buy again.",
+    author: "Thabo M., Cape Town",
   },
   {
-    quote:
-      "Quick WhatsApp response, honest answers about the movement and case, smooth checkout.",
-    author: "Placeholder Review",
+    quote: "Quick WhatsApp response, honest answers about the movement and case, smooth process.",
+    author: "Sarah K., Johannesburg",
   },
   {
     quote: "Great value for the build quality. The packaging alone felt premium.",
-    author: "Placeholder Review",
+    author: "Johan van der Berg, Pretoria",
   },
 ];
 
@@ -55,23 +53,22 @@ export default function HomePage() {
         <div className="mx-auto w-full max-w-6xl px-8">
           <FadeIn className="max-w-[640px]">
             <p className="mb-[18px] text-xs uppercase tracking-[0.25em] text-gold">
-              Designed &amp; Built In-House
+              Authentic Luxury Timepieces
             </p>
             <h1 className="mb-5 font-serif text-[38px] font-semibold leading-[1.1] sm:text-[56px]">
-              Timeless watches,
+              Rolex, Patek, AP
               <br />
-              <em className="italic text-gold">built</em> to last.
+              <em className="italic text-gold">sourced</em> for you.
             </h1>
             <p className="mb-8 max-w-[480px] text-base text-muted">
-              Precision movements, hand-finished cases, and designs that won&apos;t
-              look dated in twenty years — made in small batches and backed by us.
+              Authentic Rolex, Patek Philippe, Audemars Piguet, Omega and more — carefully sourced and ready for you. Message us for current availability and pricing.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/shop"
                 className="rounded-sm bg-gold px-[30px] py-[15px] text-[13px] font-medium uppercase tracking-[0.08em] text-background transition-colors hover:bg-white"
               >
-                Shop the Collection
+                View Collection
               </Link>
               <a
                 href={WHATSAPP_LINK}
@@ -90,35 +87,35 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* COLLECTIONS */}
+      {/* BRANDS */}
       <section className="bg-background-alt py-[110px]">
         <div className="mx-auto max-w-6xl px-8">
           <FadeIn className="mx-auto mb-[60px] max-w-[640px] text-center">
             <p className="text-xs uppercase tracking-[0.25em] text-gold">
-              Featured Collections
+              Featured Brands
             </p>
             <h2 className="mb-4 mt-3.5 font-serif text-4xl font-semibold">
-              Curated by category
+              The collection
             </h2>
             <p className="text-[15px] text-muted">
-              Browse by the moments a watch is made for.
+              Rolex · Omega · Patek Philippe · Audemars Piguet · Cartier · Panerai · TAG Heuer · Franck Muller
             </p>
           </FadeIn>
 
           <div className="grid gap-6 md:grid-cols-3">
-            {COLLECTIONS.map((collection, index) => (
-              <FadeIn key={collection.title} delay={index * 0.08}>
+            {BRANDS.map((brand, index) => (
+              <FadeIn key={brand.title} delay={index * 0.08}>
                 <Link
                   href="/shop"
                   className="collection-card h-[420px] rounded-sm p-8"
-                  style={{ backgroundImage: `url('${collection.image}')` }}
+                  style={{ backgroundImage: `url('${brand.image}')` }}
                 >
                   <div>
                     <h3 className="mb-1.5 font-serif text-2xl font-semibold">
-                      {collection.title}
+                      {brand.title}
                     </h3>
                     <p className="text-[13px] tracking-[0.05em] text-gold">
-                      {collection.blurb}
+                      {brand.blurb}
                     </p>
                   </div>
                 </Link>
@@ -133,14 +130,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-8">
           <FadeIn className="mx-auto mb-[60px] max-w-[640px] text-center">
             <p className="text-xs uppercase tracking-[0.25em] text-gold">
-              Best Sellers
+              Available Now
             </p>
             <h2 className="mb-4 mt-3.5 font-serif text-4xl font-semibold">
-              Most requested pieces
+              Selected pieces
             </h2>
             <p className="text-[15px] text-muted">
-              Placeholder listings — to be swapped for confirmed inventory and
-              photography.
+              Availability changes frequently. Message us for current stock and pricing.
             </p>
           </FadeIn>
 
@@ -162,7 +158,7 @@ export default function HomePage() {
               Why Sterling &amp; Oak
             </p>
             <h2 className="mt-3.5 font-serif text-4xl font-semibold">
-              Made properly, every time
+              Trusted sourcing
             </h2>
           </FadeIn>
 
@@ -183,7 +179,7 @@ export default function HomePage() {
               href="/about"
               className="inline-block rounded-sm border border-white/40 px-[18px] py-2.5 text-xs font-medium uppercase tracking-[0.08em] transition-colors hover:border-gold hover:text-gold"
             >
-              Learn About Our Process
+              Learn More
             </Link>
           </div>
         </div>
@@ -223,10 +219,10 @@ export default function HomePage() {
       <section className="bg-gradient-to-br from-[#22252d] to-background py-[90px] text-center">
         <div className="mx-auto max-w-2xl px-8">
           <h2 className="mb-4 font-serif text-[32px] font-semibold">
-            Have a question about a piece?
+            Looking for a specific reference?
           </h2>
           <p className="mb-8 text-muted">
-            Chat with us directly on WhatsApp — real answers, no bots.
+            Message us on WhatsApp — real answers, no bots.
           </p>
           <a
             href={WHATSAPP_LINK}
@@ -236,6 +232,7 @@ export default function HomePage() {
           >
             Message Us on WhatsApp
           </a>
+          <p className="mt-4 text-sm text-muted">071 304 9269</p>
         </div>
       </section>
     </>

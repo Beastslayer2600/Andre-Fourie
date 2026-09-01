@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#08090c"/>
+  <circle cx="200" cy="200" r="175" fill="#1c1f24" stroke="#6a7078" stroke-width="4"/>
+  <circle cx="200" cy="200" r="160" fill="#111" stroke="#333" stroke-width="2"/>
+  <circle cx="200" cy="200" r="130" fill="#0a0a0a"/>
+  <g fill="#e8e4d0" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle">
+    <text x="200" y="115">12</text>
+    <text x="290" y="210">3</text>
+    <text x="200" y="305">6</text>
+    <text x="110" y="210">9</text>
+  </g>
+  <g fill="#e8e4d0">
+    <circle cx="265" cy="125" r="6"/><circle cx="295" cy="170" r="6"/>
+    <circle cx="295" cy="230" r="6"/><circle cx="265" cy="275" r="6"/>
+    <circle cx="135" cy="275" r="6"/><circle cx="105" cy="230" r="6"/>
+    <circle cx="105" cy="170" r="6"/><circle cx="135" cy="125" r="6"/>
+  </g>
+  <line x1="200" y1="200" x2="200" y2="120" stroke="#e8e4d0" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="200" cy="145" r="8" fill="#0a0a0a" stroke="#e8e4d0" stroke-width="2"/>
+  <line x1="200" y1="200" x2="270" y2="200" stroke="#e8e4d0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="200" y2="95" stroke="#c9a962" stroke-width="1.5"/>
+  <circle cx="200" cy="200" r="6" fill="#c9a962"/>
+  <text x="200" y="250" text-anchor="middle" fill="#777" font-size="8" font-family="Arial, sans-serif" letter-spacing="1">EXPLORER</text>
+</svg>

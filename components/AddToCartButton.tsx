@@ -2,11 +2,30 @@
 
 import { useState } from "react";
 import { useCart } from "@/lib/cart-context";
+import { WHATSAPP_LINK } from "@/lib/site-config";
 import type { Product } from "@/lib/types";
 
 export default function AddToCartButton({ product }: { product: Product }) {
   const { addItem } = useCart();
   const [quantity, setQuantity] = useState(1);
+  const isEnquiry = product.price === 0;
+
+  const enquireLink = `${WHATSAPP_LINK}?text=${encodeURIComponent(
+    `Hi, I'm interested in the ${product.brand} ${product.name}. Is it available and what is the current price?`
+  )}`;
+
+  if (isEnquiry) {
+    return (
+      <a
+        href={enquireLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex w-full items-center justify-center rounded-sm bg-gold px-6 py-3 text-sm font-medium uppercase tracking-wide text-background transition-colors hover:bg-white"
+      >
+        Enquire on WhatsApp
+      </a>
+    );
+  }
 
   return (
     <div className="flex items-center gap-4">

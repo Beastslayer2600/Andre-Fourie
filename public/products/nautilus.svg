@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#0a1a2a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="#08090c"/>
+  <rect x="55" y="65" width="290" height="270" rx="90" fill="#1a2535" stroke="#c9a962" stroke-width="5"/>
+  <rect x="72" y="82" width="256" height="236" rx="78" fill="url(#blue)"/>
+  <g stroke="#163048" stroke-width="1.4">
+    <line x1="95" y1="115" x2="305" y2="115"/>
+    <line x1="90" y1="140" x2="310" y2="140"/>
+    <line x1="88" y1="165" x2="312" y2="165"/>
+    <line x1="86" y1="190" x2="314" y2="190"/>
+    <line x1="86" y1="215" x2="314" y2="215"/>
+    <line x1="88" y1="240" x2="312" y2="240"/>
+    <line x1="90" y1="265" x2="310" y2="265"/>
+    <line x1="95" y1="290" x2="305" y2="290"/>
+  </g>
+  <g fill="#c9a962">
+    <rect x="192" y="100" width="16" height="20" rx="2"/>
+    <rect x="192" y="280" width="16" height="20" rx="2"/>
+    <rect x="100" y="192" width="20" height="16" rx="2"/>
+    <rect x="280" y="192" width="20" height="16" rx="2"/>
+    <circle cx="260" cy="130" r="6"/><circle cx="290" cy="170" r="6"/>
+    <circle cx="290" cy="230" r="6"/><circle cx="260" cy="270" r="6"/>
+    <circle cx="140" cy="270" r="6"/><circle cx="110" cy="230" r="6"/>
+    <circle cx="110" cy="170" r="6"/><circle cx="140" cy="130" r="6"/>
+  </g>
+  <line x1="200" y1="200" x2="200" y2="125" stroke="#e8e4d0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="260" y2="230" stroke="#c9a962" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="200" cy="200" r="6" fill="#c9a962"/>
+  <text x="200" y="255" text-anchor="middle" fill="#4a6a8a" font-size="9" font-family="Georgia, serif" letter-spacing="1">NAUTILUS</text>
+</svg>
