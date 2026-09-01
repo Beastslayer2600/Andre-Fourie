@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { WHATSAPP_LINK } from "@/lib/site-config";
 
 export const metadata: Metadata = {
