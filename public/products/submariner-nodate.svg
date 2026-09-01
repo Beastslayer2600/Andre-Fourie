@@ -1,19 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
-  <rect width="400" height="400" fill="#080a0e"/>
-  <circle cx="200" cy="200" r="155" fill="none" stroke="#2a3548" stroke-width="12"/>
-  <circle cx="200" cy="200" r="140" fill="#0c1018" stroke="#c9a962" stroke-width="1.5"/>
-  <circle cx="200" cy="200" r="125" fill="#0a0e14"/>
-  <g stroke="#d4af37" stroke-width="2.5" stroke-linecap="round">
-    <line x1="200" y1="85" x2="200" y2="100"/><line x1="200" y1="300" x2="200" y2="315"/>
-    <line x1="85" y1="200" x2="100" y2="200"/><line x1="300" y1="200" x2="315" y2="200"/>
-  </g>
-  <g fill="#e8e4d9" opacity="0.7">
-    <circle cx="255" cy="100" r="2.5"/><circle cx="300" cy="145" r="2.5"/><circle cx="300" cy="255" r="2.5"/>
-    <circle cx="255" cy="300" r="2.5"/><circle cx="145" cy="300" r="2.5"/><circle cx="100" cy="255" r="2.5"/>
-    <circle cx="100" cy="145" r="2.5"/><circle cx="145" cy="100" r="2.5"/>
-  </g>
-  <line x1="200" y1="200" x2="175" y2="115" stroke="#e8e4d9" stroke-width="3.5" stroke-linecap="round"/>
-  <line x1="200" y1="200" x2="275" y2="200" stroke="#c9a962" stroke-width="2.5" stroke-linecap="round"/>
-  <circle cx="200" cy="200" r="5" fill="#c9a962"/>
-  <text x="200" y="355" text-anchor="middle" fill="#8a7a50" font-size="10" font-family="serif" letter-spacing="4">NO DATE</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<rect width="400" height="400" fill="#080a0e"/>
+<circle cx="200" cy="200" r="158" fill="#2a2e35" stroke="#8a9099" stroke-width="3"/>
+<circle cx="200" cy="200" r="148" fill="#111"/>
+<polygon points="200,62 206,74 194,74" fill="#e8e4d9"/>
+<g stroke="#888" stroke-width="1.2">
+<line x1="200" y1="58" x2="200" y2="70"/><line x1="200" y1="330" x2="200" y2="342"/>
+<line x1="58" y1="200" x2="70" y2="200"/><line x1="330" y1="200" x2="342" y2="200"/>
+</g>
+<circle cx="200" cy="200" r="118" fill="#0c0c0c"/>
+<g fill="#e8e4d9">
+<rect x="194" y="95" width="12" height="22" rx="1"/>
+<rect x="194" y="283" width="12" height="22" rx="1"/>
+<rect x="95" y="194" width="22" height="12" rx="1"/>
+<rect x="283" y="194" width="22" height="12" rx="1"/>
+<circle cx="270" cy="130" r="6"/><circle cx="270" cy="270" r="6"/>
+<circle cx="130" cy="270" r="6"/><circle cx="130" cy="130" r="6"/>
+</g>
+<line x1="200" y1="200" x2="200" y2="125" stroke="#e8e4d9" stroke-width="5" stroke-linecap="round"/>
+<circle cx="200" cy="145" r="7" fill="#0c0c0c" stroke="#e8e4d9" stroke-width="2"/>
+<line x1="200" y1="200" x2="265" y2="200" stroke="#e8e4d9" stroke-width="4" stroke-linecap="round"/>
+<line x1="200" y1="200" x2="200" y2="100" stroke="#c9a962" stroke-width="2"/>
+<circle cx="200" cy="200" r="6" fill="#c9a962"/>
+<text x="200" y="250" text-anchor="middle" fill="#555" font-size="8" font-family="sans-serif" letter-spacing="1">SUBMARINER</text>
 </svg>
