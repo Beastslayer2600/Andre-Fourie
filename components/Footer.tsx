@@ -79,9 +79,21 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gold/10">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-6 py-6 text-xs text-muted">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 text-xs text-muted sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
           <span>&copy; {new Date().getFullYear()} Sterling &amp; Oak. All rights reserved.</span>
           <span>Authenticity guaranteed</span>
+        </div>
+        <div className="mx-auto max-w-6xl px-6 pb-6 text-[11px] leading-relaxed text-muted/80">
+          Product images: Unsplash (free commercial license). Rolex Submariner photos from{" "}
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Rolex-Submariner.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-2 hover:text-gold"
+          >
+            Wikimedia Commons
+          </a>{" "}
+          (public domain). Not affiliated with Rolex, Patek Philippe, Audemars Piguet, Omega, Cartier or other brands.
         </div>
       </div>
     </footer>
