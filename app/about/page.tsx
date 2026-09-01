@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { WHATSAPP_LINK } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "About | Sterling & Oak",
@@ -19,7 +20,7 @@ export default function AboutPage() {
           <div className="overflow-hidden rounded-sm border border-gold/10 bg-background-alt">
             <Image
               src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1000&auto=format&fit=crop"
-              alt="Sterling & Oak watch"
+              alt="Luxury watch"
               width={800}
               height={800}
               className="aspect-square w-full object-cover"
@@ -27,19 +28,13 @@ export default function AboutPage() {
           </div>
           <div className="flex flex-col gap-4 text-muted">
             <p>
-              [PLACEHOLDER — REPLACE] Sterling &amp; Oak was founded on a simple idea: a
-              good watch should outlive its trends. Every piece pairs a proven movement
-              with materials chosen to age well — brushed steel, sapphire crystal,
-              leather that gets better with wear.
+              Sterling &amp; Oak specialises in authentic luxury timepieces from the world&apos;s most respected manufactures.
             </p>
             <p>
-              We design every model in-house and build in small batches, so each watch
-              gets real attention before it ships. No borrowed names, no shortcuts —
-              just a design we&apos;re proud to put our name on.
+              We source Rolex, Patek Philippe, Audemars Piguet, Omega, Cartier, Panerai, TAG Heuer and Franck Muller watches for discerning clients across South Africa and beyond. Every piece is carefully verified for authenticity and condition before it is offered.
             </p>
             <p>
-              [PLACEHOLDER — REPLACE] Add the client&apos;s real founding story, team
-              background, and what makes Sterling &amp; Oak worth trusting.
+              We keep communication simple and direct. No pressure, no fluff — just clear answers and reliable service. Whether you are looking for a classic Submariner, a Nautilus, a Royal Oak or a specific Daytona, message us and we will tell you exactly what is available.
             </p>
           </div>
         </div>
@@ -49,34 +44,34 @@ export default function AboutPage() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <p className="mb-2 text-xs uppercase tracking-[0.25em] text-gold">What We Stand For</p>
           <h2 className="mb-10 font-serif text-2xl font-semibold tracking-tight sm:text-3xl">
-            Our values
+            Our standards
           </h2>
           <div className="grid gap-10 sm:grid-cols-3">
             <div>
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full border border-gold text-gold">
                 ✓
               </div>
-              <h3 className="mb-2 font-semibold">Built to Last</h3>
+              <h3 className="mb-2 font-semibold">Authenticity Guaranteed</h3>
               <p className="text-sm text-muted">
-                Proven movements and durable materials, not disposable fashion.
+                Every watch is carefully verified for authenticity.
               </p>
             </div>
             <div>
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full border border-gold text-gold">
                 ◈
               </div>
-              <h3 className="mb-2 font-semibold">Honest Design</h3>
+              <h3 className="mb-2 font-semibold">Honest Reporting</h3>
               <p className="text-sm text-muted">
-                Every model is our own — no borrowed names, no imitation.
+                Transparent condition reports including box and papers status.
               </p>
             </div>
             <div>
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full border border-gold text-gold">
                 ♥
               </div>
-              <h3 className="mb-2 font-semibold">Stand Behind It</h3>
+              <h3 className="mb-2 font-semibold">Direct Service</h3>
               <p className="text-sm text-muted">
-                We back every watch we sell, before and after purchase.
+                Real answers on WhatsApp. Secure payment and discreet delivery.
               </p>
             </div>
           </div>
@@ -85,15 +80,18 @@ export default function AboutPage() {
 
       <section className="mx-auto max-w-6xl px-6 py-20 text-center">
         <h2 className="mb-4 font-serif text-2xl font-semibold tracking-tight">
-          Want to know more?
+          Looking for a specific piece?
         </h2>
-        <p className="mb-8 text-muted">Reach out anytime — we&apos;re happy to talk watches.</p>
-        <Link
-          href="/contact"
+        <p className="mb-8 text-muted">Message us on WhatsApp — we&apos;re happy to help.</p>
+        <a
+          href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block rounded-sm bg-gold px-8 py-3 text-sm font-medium uppercase tracking-wide text-background hover:bg-white"
         >
-          Get in Touch
-        </Link>
+          Chat on WhatsApp
+        </a>
+        <p className="mt-4 text-sm text-muted">071 304 9269</p>
       </section>
     </>
   );
