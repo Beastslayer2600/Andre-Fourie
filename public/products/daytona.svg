@@ -1,29 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-<rect width="400" height="400" fill="#0c0e12"/>
-<circle cx="200" cy="200" r="158" fill="#2a2e35" stroke="#8a9099" stroke-width="2"/>
-<circle cx="200" cy="200" r="148" fill="#1a1a1a" stroke="#c9a962" stroke-width="1"/>
-<g fill="#c9a962" font-size="7" font-family="sans-serif" text-anchor="middle">
-<text x="200" y="68">400</text><text x="280" y="100">200</text><text x="320" y="180">120</text>
-<text x="300" y="280">80</text><text x="200" y="340">60</text><text x="100" y="280">80</text>
-<text x="80" y="180">120</text><text x="120" y="100">200</text>
-</g>
-<circle cx="200" cy="200" r="118" fill="#111"/>
-<circle cx="200" cy="145" r="28" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
-<circle cx="145" cy="230" r="28" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
-<circle cx="255" cy="230" r="28" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
-<g stroke="#666" stroke-width="1">
-<line x1="200" y1="122" x2="200" y2="130"/><line x1="200" y1="160" x2="200" y2="168"/>
-<line x1="122" y1="230" x2="130" y2="230"/><line x1="160" y1="230" x2="168" y2="230"/>
-<line x1="232" y1="230" x2="240" y2="230"/><line x1="270" y1="230" x2="278" y2="230"/>
-</g>
-<g fill="#e8e4d9">
-<rect x="195" y="95" width="10" height="12" rx="1"/>
-<rect x="195" y="293" width="10" height="12" rx="1"/>
-<rect x="95" y="195" width="12" height="10" rx="1"/>
-<rect x="293" y="195" width="12" height="10" rx="1"/>
-</g>
-<line x1="200" y1="200" x2="185" y2="110" stroke="#e8e4d9" stroke-width="3" stroke-linecap="round"/>
-<line x1="200" y1="200" x2="270" y2="185" stroke="#c9a962" stroke-width="2.5" stroke-linecap="round"/>
-<circle cx="200" cy="200" r="5" fill="#c9a962"/>
-<text x="200" y="270" text-anchor="middle" fill="#888" font-size="7" font-family="sans-serif">COSMOGRAPH</text>
+  <defs>
+    <radialGradient id="d" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#08090c"/>
+  <circle cx="200" cy="200" r="175" fill="#1c1f24" stroke="#6a7078" stroke-width="4"/>
+  <circle cx="200" cy="200" r="165" fill="#1a1e24" stroke="#c9a962" stroke-width="2"/>
+  <g fill="#c9a962" font-family="Arial, sans-serif" font-size="8" font-weight="600" text-anchor="middle">
+    <text x="200" y="55">400</text>
+    <text x="275" y="80">200</text>
+    <text x="330" y="140">140</text>
+    <text x="345" y="200">100</text>
+    <text x="330" y="270">80</text>
+    <text x="275" y="330">60</text>
+    <text x="200" y="355">50</text>
+    <text x="125" y="330">60</text>
+    <text x="70" y="270">80</text>
+    <text x="55" y="200">100</text>
+    <text x="70" y="140">140</text>
+    <text x="125" y="80">200</text>
+  </g>
+  <circle cx="200" cy="200" r="125" fill="url(#d)" stroke="#222" stroke-width="1"/>
+  <circle cx="200" cy="135" r="32" fill="#0c0c0c" stroke="#444" stroke-width="1.5"/>
+  <circle cx="140" cy="235" r="32" fill="#0c0c0c" stroke="#444" stroke-width="1.5"/>
+  <circle cx="260" cy="235" r="32" fill="#0c0c0c" stroke="#444" stroke-width="1.5"/>
+  <g stroke="#666" stroke-width="1">
+    <line x1="200" y1="108" x2="200" y2="115"/><line x1="200" y1="155" x2="200" y2="162"/>
+    <line x1="113" y1="235" x2="120" y2="235"/><line x1="160" y1="235" x2="167" y2="235"/>
+    <line x1="233" y1="235" x2="240" y2="235"/><line x1="280" y1="235" x2="287" y2="235"/>
+  </g>
+  <g fill="#e8e4d0">
+    <rect x="194" y="88" width="12" height="14" rx="1"/>
+    <rect x="194" y="298" width="12" height="14" rx="1"/>
+    <rect x="88" y="194" width="14" height="12" rx="1"/>
+    <rect x="298" y="194" width="14" height="12" rx="1"/>
+  </g>
+  <line x1="200" y1="200" x2="175" y2="115" stroke="#e8e4d0" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="275" y2="180" stroke="#c9a962" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="200" cy="200" r="5" fill="#c9a962"/>
+  <text x="200" y="275" text-anchor="middle" fill="#888" font-size="7" font-family="Arial, sans-serif" letter-spacing="1">COSMOGRAPH</text>
+  <text x="200" y="288" text-anchor="middle" fill="#555" font-size="6" font-family="Arial, sans-serif">DAYTONA</text>
 </svg>
