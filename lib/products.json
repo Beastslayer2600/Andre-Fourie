@@ -6,11 +6,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/submariner-date.svg",
+    "images": ["/products/submariner-date.svg", "/products/submariner-nodate.svg"],
     "description": "The iconic dive watch. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -26,11 +23,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/submariner-nodate.svg",
+    "images": ["/products/submariner-nodate.svg", "/products/submariner-date.svg"],
     "description": "Clean, pure dive watch. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -46,11 +40,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/gmt-batman.svg",
+    "images": ["/products/gmt-batman.svg", "/products/pepsi.svg"],
     "description": "Blue and black ceramic bezel. Availability and pricing on request.",
     "category": "GMT",
     "movement": "Automatic",
@@ -66,11 +57,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/pepsi.svg",
+    "images": ["/products/pepsi.svg", "/products/gmt-batman.svg"],
     "description": "Red and blue ceramic bezel. Availability and pricing on request.",
     "category": "GMT",
     "movement": "Automatic",
@@ -86,11 +74,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/daytona.svg",
+    "images": ["/products/daytona.svg", "/products/carrera.svg"],
     "description": "The legendary chronograph. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Automatic",
@@ -106,11 +91,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/daytona.svg",
+    "images": ["/products/daytona.svg", "/products/speedmaster.svg"],
     "description": "White dial with black counters. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Automatic",
@@ -126,11 +108,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/datejust.svg",
+    "images": ["/products/datejust.svg", "/products/explorer.svg"],
     "description": "The classic Rolex dress sports watch. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Automatic",
@@ -146,11 +125,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/sky-dweller.svg",
+    "images": ["/products/sky-dweller.svg", "/products/gmt-batman.svg"],
     "description": "Annual calendar with dual time. Availability and pricing on request.",
     "category": "GMT",
     "movement": "Automatic",
@@ -166,11 +142,8 @@
     "brand": "Rolex",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/explorer.svg",
+    "images": ["/products/explorer.svg", "/products/submariner-nodate.svg"],
     "description": "Tool watch purity. Availability and pricing on request.",
     "category": "Field",
     "movement": "Automatic",
@@ -186,11 +159,8 @@
     "brand": "Patek Philippe",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/nautilus.svg",
+    "images": ["/products/nautilus.svg", "/products/aquanaut.svg"],
     "description": "The most sought-after sports watch. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -206,11 +176,8 @@
     "brand": "Patek Philippe",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/aquanaut.svg",
+    "images": ["/products/aquanaut.svg", "/products/nautilus.svg"],
     "description": "Sporty elegance with rubber strap. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -226,11 +193,8 @@
     "brand": "Audemars Piguet",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/royal-oak.svg",
+    "images": ["/products/royal-oak.svg", "/products/offshore.svg"],
     "description": "The original luxury sports watch. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -246,11 +210,8 @@
     "brand": "Audemars Piguet",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/offshore.svg",
+    "images": ["/products/offshore.svg", "/products/royal-oak.svg"],
     "description": "Bold and distinctive. Availability and pricing on request.",
     "category": "Sports",
     "movement": "Automatic",
@@ -266,11 +227,8 @@
     "brand": "Omega",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/seamaster.svg",
+    "images": ["/products/seamaster.svg", "/products/speedmaster.svg"],
     "description": "The modern classic dive watch. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -286,11 +244,8 @@
     "brand": "Omega",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/speedmaster.svg",
+    "images": ["/products/speedmaster.svg", "/products/seamaster.svg"],
     "description": "The first watch on the moon. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Manual",
@@ -306,11 +261,8 @@
     "brand": "Cartier",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/santos.svg",
+    "images": ["/products/santos.svg", "/products/tank.svg"],
     "description": "Timeless square elegance. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Automatic",
@@ -326,11 +278,8 @@
     "brand": "Cartier",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1548171915-e79a380a2a4b?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/tank.svg",
+    "images": ["/products/tank.svg", "/products/santos.svg"],
     "description": "The iconic rectangular dress watch. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Quartz / Automatic",
@@ -346,11 +295,8 @@
     "brand": "Panerai",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/luminor.svg",
+    "images": ["/products/luminor.svg", "/products/submariner-date.svg"],
     "description": "Distinctive crown protection. Availability and pricing on request.",
     "category": "Diver",
     "movement": "Automatic",
@@ -366,11 +312,8 @@
     "brand": "TAG Heuer",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/carrera.svg",
+    "images": ["/products/carrera.svg", "/products/daytona.svg"],
     "description": "Racing-inspired chronograph. Availability and pricing on request.",
     "category": "Chronograph",
     "movement": "Automatic",
@@ -386,11 +329,8 @@
     "brand": "Franck Muller",
     "price": 0,
     "currency": "ZAR",
-    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=800&auto=format&fit=crop",
-    "images": [
-      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1200&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=1200&auto=format&fit=crop"
-    ],
+    "image": "/products/vanguard.svg",
+    "images": ["/products/vanguard.svg", "/products/datejust.svg"],
     "description": "Bold and distinctive design. Availability and pricing on request.",
     "category": "Dress",
     "movement": "Automatic",
