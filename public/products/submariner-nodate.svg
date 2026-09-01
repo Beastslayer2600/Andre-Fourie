@@ -1,25 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-<rect width="400" height="400" fill="#080a0e"/>
-<circle cx="200" cy="200" r="158" fill="#2a2e35" stroke="#8a9099" stroke-width="3"/>
-<circle cx="200" cy="200" r="148" fill="#111"/>
-<polygon points="200,62 206,74 194,74" fill="#e8e4d9"/>
-<g stroke="#888" stroke-width="1.2">
-<line x1="200" y1="58" x2="200" y2="70"/><line x1="200" y1="330" x2="200" y2="342"/>
-<line x1="58" y1="200" x2="70" y2="200"/><line x1="330" y1="200" x2="342" y2="200"/>
-</g>
-<circle cx="200" cy="200" r="118" fill="#0c0c0c"/>
-<g fill="#e8e4d9">
-<rect x="194" y="95" width="12" height="22" rx="1"/>
-<rect x="194" y="283" width="12" height="22" rx="1"/>
-<rect x="95" y="194" width="22" height="12" rx="1"/>
-<rect x="283" y="194" width="22" height="12" rx="1"/>
-<circle cx="270" cy="130" r="6"/><circle cx="270" cy="270" r="6"/>
-<circle cx="130" cy="270" r="6"/><circle cx="130" cy="130" r="6"/>
-</g>
-<line x1="200" y1="200" x2="200" y2="125" stroke="#e8e4d9" stroke-width="5" stroke-linecap="round"/>
-<circle cx="200" cy="145" r="7" fill="#0c0c0c" stroke="#e8e4d9" stroke-width="2"/>
-<line x1="200" y1="200" x2="265" y2="200" stroke="#e8e4d9" stroke-width="4" stroke-linecap="round"/>
-<line x1="200" y1="200" x2="200" y2="100" stroke="#c9a962" stroke-width="2"/>
-<circle cx="200" cy="200" r="6" fill="#c9a962"/>
-<text x="200" y="250" text-anchor="middle" fill="#555" font-size="8" font-family="sans-serif" letter-spacing="1">SUBMARINER</text>
+  <defs>
+    <radialGradient id="dialGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#08090c"/>
+  <circle cx="200" cy="200" r="175" fill="#1c1f24" stroke="#6a7078" stroke-width="4"/>
+  <circle cx="200" cy="200" r="165" fill="#1f2328" stroke="#4a5058" stroke-width="2"/>
+  <g stroke="#c8c4b8" stroke-width="1.5" stroke-linecap="round">
+    <line x1="200" y1="42" x2="200" y2="58"/><line x1="200" y1="342" x2="200" y2="358"/>
+    <line x1="42" y1="200" x2="58" y2="200"/><line x1="342" y1="200" x2="358" y2="200"/>
+  </g>
+  <g fill="#d0ccc0" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle">
+    <text x="200" y="72">60</text><text x="275" y="95">10</text><text x="325" y="155">20</text>
+    <text x="325" y="255">30</text><text x="275" y="315">40</text><text x="125" y="315">50</text>
+  </g>
+  <polygon points="200,48 208,64 192,64" fill="#e8e4d0"/>
+  <circle cx="200" cy="200" r="125" fill="url(#dialGrad)" stroke="#222" stroke-width="1"/>
+  <g fill="#e8e4d0">
+    <rect x="193" y="88" width="14" height="26" rx="1.5"/>
+    <rect x="193" y="286" width="14" height="26" rx="1.5"/>
+    <rect x="88" y="193" width="26" height="14" rx="1.5"/>
+    <rect x="286" y="193" width="26" height="14" rx="1.5"/>
+    <circle cx="268" cy="120" r="7"/><circle cx="300" cy="168" r="7"/>
+    <circle cx="300" cy="232" r="7"/><circle cx="268" cy="280" r="7"/>
+    <circle cx="132" cy="280" r="7"/><circle cx="100" cy="232" r="7"/>
+    <circle cx="100" cy="168" r="7"/><circle cx="132" cy="120" r="7"/>
+  </g>
+  <line x1="200" y1="200" x2="200" y2="115" stroke="#e8e4d0" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200" cy="140" r="9" fill="#0a0a0a" stroke="#e8e4d0" stroke-width="2.5"/>
+  <line x1="200" y1="200" x2="275" y2="200" stroke="#e8e4d0" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="200" y2="95" stroke="#c9a962" stroke-width="1.8"/>
+  <circle cx="200" cy="200" r="7" fill="#c9a962"/>
+  <text x="200" y="250" text-anchor="middle" fill="#888" font-size="9" font-family="Arial, sans-serif" letter-spacing="1.5">SUBMARINER</text>
 </svg>
