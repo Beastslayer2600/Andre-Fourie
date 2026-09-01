@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" fill="#0a1018"/>
+  <circle cx="200" cy="200" r="155" fill="#0c1828" stroke="#c9a962" stroke-width="2"/>
+  <circle cx="200" cy="200" r="138" fill="#0a1420"/>
+  <path d="M80 200 Q120 180 160 200 T240 200 T320 200" stroke="#1a3a5c" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M80 220 Q120 200 160 220 T240 220 T320 220" stroke="#1a3a5c" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <path d="M80 180 Q120 160 160 180 T240 180 T320 180" stroke="#1a3a5c" stroke-width="1.5" fill="none" opacity="0.4"/>
+  <g fill="#c9a962">
+    <polygon points="200,85 205,100 195,100"/>
+    <rect x="195" y="295" width="10" height="16" rx="1"/>
+    <rect x="85" y="195" width="16" height="10" rx="1"/>
+    <rect x="299" y="195" width="16" height="10" rx="1"/>
+  </g>
+  <line x1="200" y1="200" x2="210" y2="115" stroke="#e8e4d9" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="200" y1="200" x2="275" y2="225" stroke="#c9a962" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="200" cy="200" r="5" fill="#c9a962"/>
+  <text x="200" y="355" text-anchor="middle" fill="#4a7a9a" font-size="10" font-family="serif" letter-spacing="3">SEAMASTER</text>
+</svg>
