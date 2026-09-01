@@ -84,16 +84,8 @@ export default function Footer() {
           <span>Authenticity guaranteed</span>
         </div>
         <div className="mx-auto max-w-6xl px-6 pb-6 text-[11px] leading-relaxed text-muted/80">
-          Product images: Unsplash (free commercial license). Rolex Submariner photos from{" "}
-          <a
-            href="https://commons.wikimedia.org/wiki/File:Rolex-Submariner.jpg"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline underline-offset-2 hover:text-gold"
-          >
-            Wikimedia Commons
-          </a>{" "}
-          (public domain). Not affiliated with Rolex, Patek Philippe, Audemars Piguet, Omega, Cartier or other brands.
+          Product illustrations are original site assets for reference only. Not affiliated with Rolex, Patek Philippe,
+          Audemars Piguet, Omega, Cartier or other brands. Final stock photos replace these before launch.
         </div>
       </div>
     </footer>
